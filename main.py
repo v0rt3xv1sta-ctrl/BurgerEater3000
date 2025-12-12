@@ -41,7 +41,7 @@ def getbot1():
         bur -= 20
         cout.config(text=f"Burger:{bur}")
     else:
-        cout.config(text="you dont have egofe for this")
+        cout.config(text="you dont have enough for this")
 
 
 but = tk.Button(window, text="Eat Burger", command=eat)
